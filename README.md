@@ -19,11 +19,18 @@ without modifying the `QuRadar` class.
 ## Project Structure
 
 src/
-└── quantumradar/
-    ├── Main.java
-    ├── model/
-    └── rules/
-
+    quantumradar/
+        Main.java
+        model/
+            QuRadar.java
+            CarType.java
+            Violation.java
+        rules/
+            TrafficRule.java
+            SeatbeltRule.java
+            TruckSpeedRule.java
+            PrivateCarSpeedRule.java
+            
 ## Technologies
 
 - Java 

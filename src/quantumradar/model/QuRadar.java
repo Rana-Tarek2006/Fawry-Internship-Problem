@@ -14,6 +14,13 @@ public class QuRadar {
     private CarType type;
     private int speed;
     private boolean is_seatbelt_fastened;
+    public QuRadar() //Default constractor
+    {
+        try (Scanner scanner = new Scanner(System.in)) 
+        {
+        QuRadar(scanner); //I used the scanner to take input from the user for the attributes of the class as it validates the input and also makes it easier to use the class in the main method.
+        }
+    }
     public QuRadar(Scanner scanner) {
         //Take data from the user
         System.out.print("Enter plate number: ");
